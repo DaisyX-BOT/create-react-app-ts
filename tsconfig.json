@@ -12,12 +12,12 @@
     // types option has been previously configured
     "types": [
       // add node as an option
-      "node"
+      "node",
+      "jest"
     ],
-    // "typeRoots": [
-    //   "./node_modules/@types",
-    //   "./src/typings"
-    // ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

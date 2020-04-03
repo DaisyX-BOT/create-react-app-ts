@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './assest/style/index.less';
+import Main from './main';
 import * as serviceWorker from './serviceWorker';
 
+// import 'babel-polyfill'
+// import 'url-polyfill'
+// require('es6-promise').polyfill()
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Main/>,
+  document.getElementById('root') as HTMLElement
 );
 
 // If you want your app to work offline and load faster, you can change
